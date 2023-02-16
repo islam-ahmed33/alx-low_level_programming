@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
-* main - a program that the size of various types on the computer it is compiled and run on.
+* main - a program that the size of various types on the computer
 * Return: 0 (This program will be successful)
 */
 int main(void)
