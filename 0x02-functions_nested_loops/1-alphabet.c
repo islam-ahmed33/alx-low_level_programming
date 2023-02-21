@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - check the code
- * Description: function to print_alphabet
- * Return: Always 0 (Success).
+ *print_alphabet - print all char from a to z
+ * Description: 'the program's description'
  */
 void print_alphabet(void)
 {
