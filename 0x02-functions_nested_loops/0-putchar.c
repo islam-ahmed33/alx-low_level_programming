@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -5,15 +6,15 @@
  * Description: 'program's description'
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-char ch[8] ="_putchar";
- int cnt=0;
- while(cnt<8)
+char *ch = "_putchar\n";
+int cnt = 0;
+ while(ch[cnt])
    {
      _putchar(ch[cnt]);
      cnt++;
    }
- _putchar('\n');
 return (0);
 }
