@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
  * main - check the code
- *
- * Return: Always 0.
+ * Description: function to print_alphabet
+ * Return: Always 0 (Success).
  */
 
 void print_alphabet(void)
