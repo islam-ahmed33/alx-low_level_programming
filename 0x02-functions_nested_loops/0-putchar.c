@@ -1,20 +1,17 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
  * main - Entry point
- * Description: 'program's description'
+ * Description: 'the program's description'
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 char *ch = "_putchar\n";
-int cnt = 0;
- while(ch[cnt])
-   {
-     _putchar(ch[cnt]);
-     cnt++;
-   }
+int i = 0;
+while (ch[i])
+{
+	_putchar(ch[i]);
+	i++;
+}
 return (0);
 }
