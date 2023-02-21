@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - Entry point
  * Description: 'program's description'
@@ -6,13 +7,13 @@
  */
 int main(void)
 {
-char ch[8] ="_putchar\n";
+char ch[8] ="_putchar";
  int cnt=0;
  while(cnt<8)
    {
      _putchar(ch[cnt]);
      cnt++;
    }
- _putchar("\n");
+ _putchar('\n');
 return (0);
 }
