@@ -9,11 +9,11 @@ int main(void)
 {
 int n = 50;
 unsigned long int a = 1, b = 2, c, i;
-printf("%d, %d, ", a, b);
+printf("%lu, %lu, ", a, b);
 for (i = 3; i <= n; i++)
 {
 c = a + b;
-printf("%d", c);
+printf("%lu", c);
 if (i != n)
 {
 printf(", ");
