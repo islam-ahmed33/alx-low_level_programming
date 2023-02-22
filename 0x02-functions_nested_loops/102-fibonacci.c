@@ -8,12 +8,14 @@
 int main(void)
 {
 int n = 50;
-int a = 1, b = 2, c, i;
+long long a = 1, b = 2, c, i;
 printf("%d, %d, ", a, b);
-for (i = 3; i <= n; i++) {
+for (i = 3; i <= n; i++)
+{
 c = a + b;
 printf("%d", c);
-if (i != n) {
+if (i != n)
+{
 printf(", ");
 }
 a = b;
