@@ -7,8 +7,7 @@
  */
 int main(void)
 {
-int n = 50;
-unsigned long int a = 1, b = 2, c, i;
+unsigned long int n=50, a = 1, b = 2, c, i;
 printf("%lu, %lu, ", a, b);
 for (i = 3; i <= n; i++)
 {
