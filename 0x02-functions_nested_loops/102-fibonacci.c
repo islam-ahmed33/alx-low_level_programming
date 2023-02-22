@@ -8,7 +8,7 @@
 int main(void)
 {
 int n = 50;
-long long a = 1, b = 2, c, i;
+unsigned long int a = 1, b = 2, c, i;
 printf("%d, %d, ", a, b);
 for (i = 3; i <= n; i++)
 {
