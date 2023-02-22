@@ -8,9 +8,9 @@
 int main(void)
 {
 int n = 50;
-int a = 1, b = 2, c;
+int a = 1, b = 2, c, i;
 printf("%d, %d, ", a, b);
-for (int i = 3; i <= n; i++) {
+for (i = 3; i <= n; i++) {
 c = a + b;
 printf("%d", c);
 if (i != n) {
