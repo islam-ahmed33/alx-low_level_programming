@@ -12,15 +12,11 @@ _putchar('\n');
 }
 for (i = 1; i <= n; i++)
 {
-for (j = 1; j <= n; j++)
+for (j = i; j > 1; j--)
 {
 _putchar(' ');
-if (i == j)
-{
+}
 _putchar('\\');
-break;
-}
-}
 _putchar('\n');
 }
 }
