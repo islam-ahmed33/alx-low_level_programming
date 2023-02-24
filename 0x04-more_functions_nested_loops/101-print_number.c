@@ -6,7 +6,7 @@
  */
 void print_number(int n)
 {
-long int num = n, d = 1;
+int num = n, d = 1;
 if (n < 0)
 {
 	_putchar('-');
@@ -14,11 +14,11 @@ if (n < 0)
 }
 while (num / d >= 10)
 {
-d *= 10;
+	d *= 10;
 }
 while (d)
 {
-_putchar((num / d) % 10 + '0');
-d /= 10;
+	_putchar((num / d) % 10 + '0');
+	d /= 10;
 }
 }
