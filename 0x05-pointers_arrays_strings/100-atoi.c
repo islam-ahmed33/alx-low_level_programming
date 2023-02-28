@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _atio - function that convert a string to an integer.
+ * _atoi - convert a string to an integer.
  * @s: the string to be comverted.
  * Return: The integer value of the comverted string.
  *
  */
 int _atoi(char *s)
 {
-int sign = 1, sol = 0;
+unsigned int sign = 1, sol = 0;
 while (*s != '\0')
 {
 	if (*s == '-')
