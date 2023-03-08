@@ -7,21 +7,20 @@
  */
 int is_palindrome(char *s)
 {
-	int len = 0;
+	int len = get_len(s);
 
-	len = get_len(s);
 	return (is_plapla(s, 0, len - 1));
 }
 
 /**
  * get_len - functions that get len of string.
- * @s: string
+ * @s: string to count
  * Return: len of string.
  */
 int get_len(char *s)
 {
 	if (*s == '\0')
-		return (1);
+		return (0);
 	return (1 + get_len(s + 1));
 }
 
