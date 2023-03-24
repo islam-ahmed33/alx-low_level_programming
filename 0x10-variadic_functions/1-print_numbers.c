@@ -6,7 +6,7 @@
  * @n: int
  * Return: Void
  *
- * By: Islam Ahmed
+ * By: Islam Ahmed.
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -26,6 +26,5 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		printf("%d", num);
 	}
 	printf("\n");
-
 	va_end(ap);
 }
