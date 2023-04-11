@@ -12,7 +12,7 @@ int get_endianness(void)
 	unsigned int flag = 1;
 	char *x;
 
-	x = (char *) & flag;
+	x = (char *) &flag;
 
 	return (*x);
 }
